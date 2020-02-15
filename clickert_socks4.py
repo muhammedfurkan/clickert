@@ -72,7 +72,7 @@ except ImportError:
 except:
     print("\n\t\tBu nasıl bir hatadır ?\n")
     os.system("pip3 uninstall selenium")
-    os.system("pip3 install seneium")
+    os.system("pip3 install selenium")
     try:
         from selenium import webdriver
         import selenium
